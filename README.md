@@ -1,6 +1,4 @@
 <html>
-<head>
-	<tittle> Belajar WebGIS </title>
 <!-- LEAFLET CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 	<style>
@@ -9,7 +7,6 @@
             height: 100vh;
         }
 	</style>
-	</head>
 	<body>
 		<div id="map"></div>
 	</body>
@@ -497,5 +494,4 @@ map.removeLayer(ATM_Itera)
 map.removeLayer(PLTS)
 map.removeLayer(GEDUNG_F)
 L.control.layers(baseMaps,overlayMaps, {collapsed : false}).addTo(map);
-</script>
 </script>
